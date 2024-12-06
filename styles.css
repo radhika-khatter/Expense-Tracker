@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.navbar{
+    height: 100px;
+    color: white;
+    background-color:#641220;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 450px;
+    font-size: 50px;
+    margin-right: 10px;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    font-size: 50px;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #A71E34;
+}
+.form-details{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+form input{
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+form select{
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+form button{
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.heading{
+    background-color: #85182A;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+table{
+    margin: 20px;
+    width: 95%;
+    border-collapse: collapse;
+}
+.table-div{
+    margin: 20px;
+}
+th,td{
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: center;
+}
+th{
+    background-color: #85182A;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.total-amt{
+    display: flex;
+   justify-content: right;
+   margin-right: 50px;
+}
+.total{
+    height: 40px;
+    width: 60px;
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.t-amt{
+    height: 50px;
+    width: 280px;
+    margin: 2px;
+    font-size: 20px;
+    padding: 5px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">Expense Tracker</div>
+        <i class="fa-solid fa-money-bill-transfer icon"></i>
+    </div>
+    <div class="details">
+        <form class="form-details">
+            <input class="expense-input" type="text" placeholder="Expense description" required>
+            <select class="selections">
+                <option class="selection" value="">Select Category</option>
+                <option class="selection" value="food">Food</option>
+                <option class="selection" value="transportation">Transportation</option>
+                <option class="selection" value="utilization">Utilization</option>
+                <option class="selection" value="others">Others</option>
+            </select>
+            <input class="amt" type="text" placeholder="Amount" required>
+            <button class="add">Add Expense</button>
+        </form>
+    </div>
+    <div class="tracker">
+        <div class="heading"><h3>Expense Summary</h3></div>
+        <div class="table-div">
+        <table class="myTable">
+            <thead>
+            <tr>
+                <th>Description</th>
+                <th>Category</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+        <tbody class="list"></tbody>
+        </table>
+        <div class="total-amt">
+            <button class="total">Total</button>
+            <p class="t-amt"></p>
+        </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
